@@ -12,18 +12,14 @@ h1 {
 	text-align: center;
 	border-style: dashed;
 	border-width: 4px;
-	margin-left: 75px;
-	margin-right: 75px;
-	padding-top: 50pxpx;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color: #
-	
-	
-	
-	
+	background-color: #	
 }
-#maincontent {
-	margin-left: 150px;
+#mainContent {
+	margin-left: 175px;
 	margin-right: 75px;
 }
 
@@ -36,9 +32,25 @@ nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	
+	background-color: #f1f1f1;
+	width: 150px;
+	position: fixed;
 }
 nav ul li a {
 	display: block;
-
+	text-decoration: none;
+	color: #000;
+	padding-left: 12px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	border-width: 1px;
+	border-style: solid;
+}
+nav ul li a:hover {
+	background-color: #555;
+	color: #fff;
+}
+.active {
+	background-color: #4CAF50;
+	color: #fff;
 }
