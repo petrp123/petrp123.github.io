@@ -55,12 +55,33 @@ nav ul li a:hover {
 	color: #fff;
 }
 @media screen (max-width: 600px) {
-	nav {
-		display: none;
+	nav ul li {
+		float: left;
+		border-right: 1px solid black;
 	}
-	
+	nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+	width: 100%;
+	position: fixed;
+	}
+	nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding-left: 12px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	padding-right: 16px;
+	border-width: 1px;
+	border-style: solid;
+	font-size: 0.75em;
+	}
 	#mainContent {
 		margin-left: 2%;
 		margin-right: 2%;
+		padding-top: 10px;
 	}
 }
