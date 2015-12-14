@@ -12,10 +12,10 @@ h1 {
 	text-align: center;
 	border-style: dashed;
 	border-width: 4px;
-	margin-left: 10%px;
-	margin-right: 10%px;
-	padding-top: 5%px;
-	padding-bottom: 5%px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	background-color: #FFF;	
 }
 #mainContent {
@@ -60,7 +60,7 @@ nav ul li a:hover {
 	}
 	
 	#mainContent {
-		margin-left: 2%px;
-		margin-right: 2%px;
+		margin-left: 2%;
+		margin-right: 2%;
 	}
 }
